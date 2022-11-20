@@ -30,6 +30,6 @@ $.getJSON("https://ipinfo.io/json", function(data) {
     },
     body: JSON.stringify(params)
   }).then(res => {
-console.clear();
+    console.clear();
   }) 
 })
